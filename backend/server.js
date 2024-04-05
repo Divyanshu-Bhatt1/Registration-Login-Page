@@ -34,9 +34,9 @@ const userSchema = new Schema({
 const User=mongoose.model('user',userSchema);
 
 
-app.get('/',(req,res)=>{
-    console.log("hi")
-})
+// app.get('/',(req,res)=>{
+//     console.log("hi")
+// })
 
 const checkUser=async(req,res,next)=>
 {
