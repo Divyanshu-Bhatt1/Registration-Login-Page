@@ -1,0 +1,28 @@
+# Node.js dependencies
+/node_modules
+node_modules/
+# Environment variables
+.env
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled files
+/dist
+/build
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Tailwind CSS build directory (if not using JIT mode)
+.tailwind
+
+# Tailwind CSS cache directory (if using JIT mode)
+.cache
